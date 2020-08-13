@@ -1,18 +1,31 @@
 import React from "react";
 
-function FamousSaying(props) {
+function FamousSaying({ saying, by }) {
   return (
-    <h1>
-      "{props.saying}" - By {props.by}
-    </h1>
+    <h2>
+      "{saying}" - By {by}
+    </h2>
   );
 }
+
+const famousSayingArr = [
+  {
+    saying: "Yee",
+    by: "Tio",
+  },
+  {
+    saying: "Early bird catches the fly",
+    by: "Unknown",
+  },
+];
 
 function App() {
   return (
     <div>
       <h1>Hello</h1>
-      <FamousSaying saying="Yee" by="Tio" />
+      {famousSayingArr.map((e, i) => (
+        <FamousSaying key={i} saying={e.saying} by={e.by} />
+      ))}
     </div>
   );
 }
