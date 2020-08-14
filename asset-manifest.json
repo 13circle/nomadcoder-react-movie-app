@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nomadcoder-react-movie-app/static/css/main.d79977af.chunk.css",
-    "main.js": "/nomadcoder-react-movie-app/static/js/main.fb7e5452.chunk.js",
-    "main.js.map": "/nomadcoder-react-movie-app/static/js/main.fb7e5452.chunk.js.map",
+    "main.css": "/nomadcoder-react-movie-app/static/css/main.39db451a.chunk.css",
+    "main.js": "/nomadcoder-react-movie-app/static/js/main.401c987f.chunk.js",
+    "main.js.map": "/nomadcoder-react-movie-app/static/js/main.401c987f.chunk.js.map",
     "runtime-main.js": "/nomadcoder-react-movie-app/static/js/runtime-main.d23b98f2.js",
     "runtime-main.js.map": "/nomadcoder-react-movie-app/static/js/runtime-main.d23b98f2.js.map",
     "static/js/2.d87e97f0.chunk.js": "/nomadcoder-react-movie-app/static/js/2.d87e97f0.chunk.js",
     "static/js/2.d87e97f0.chunk.js.map": "/nomadcoder-react-movie-app/static/js/2.d87e97f0.chunk.js.map",
     "index.html": "/nomadcoder-react-movie-app/index.html",
-    "precache-manifest.6c300a6c5995703ca2b149ed7409dc19.js": "/nomadcoder-react-movie-app/precache-manifest.6c300a6c5995703ca2b149ed7409dc19.js",
+    "precache-manifest.c8e6d9010ccc2acb73186040eb0f5e30.js": "/nomadcoder-react-movie-app/precache-manifest.c8e6d9010ccc2acb73186040eb0f5e30.js",
     "service-worker.js": "/nomadcoder-react-movie-app/service-worker.js",
-    "static/css/main.d79977af.chunk.css.map": "/nomadcoder-react-movie-app/static/css/main.d79977af.chunk.css.map",
+    "static/css/main.39db451a.chunk.css.map": "/nomadcoder-react-movie-app/static/css/main.39db451a.chunk.css.map",
     "static/js/2.d87e97f0.chunk.js.LICENSE.txt": "/nomadcoder-react-movie-app/static/js/2.d87e97f0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d23b98f2.js",
     "static/js/2.d87e97f0.chunk.js",
-    "static/css/main.d79977af.chunk.css",
-    "static/js/main.fb7e5452.chunk.js"
+    "static/css/main.39db451a.chunk.css",
+    "static/js/main.401c987f.chunk.js"
   ]
 }

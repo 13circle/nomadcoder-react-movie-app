@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0fd28e3d68f80a7a92f74927615c2bb9",
+    "revision": "f3c2c12a7d14a613398b9de1c3e02b71",
     "url": "/nomadcoder-react-movie-app/index.html"
   },
   {
-    "revision": "5b803de81b6d56e6ef95",
-    "url": "/nomadcoder-react-movie-app/static/css/main.d79977af.chunk.css"
+    "revision": "46e98d2e2a34d85d8fd6",
+    "url": "/nomadcoder-react-movie-app/static/css/main.39db451a.chunk.css"
   },
   {
     "revision": "0d49e99ef25e0b493181",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nomadcoder-react-movie-app/static/js/2.d87e97f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5b803de81b6d56e6ef95",
-    "url": "/nomadcoder-react-movie-app/static/js/main.fb7e5452.chunk.js"
+    "revision": "46e98d2e2a34d85d8fd6",
+    "url": "/nomadcoder-react-movie-app/static/js/main.401c987f.chunk.js"
   },
   {
     "revision": "cfb70030404c26e2d799",
