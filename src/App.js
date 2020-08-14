@@ -1,39 +1,39 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-function FamousSaying({ saying, by }) {
-  return (
-    <h2>
-      "{saying}" - By {by}
-    </h2>
-  );
-}
-
-const famousSayingArr = [
-  {
-    saying: "Yee",
-    by: "Tio",
-  },
-  {
-    saying: "Early bird catches the fly",
-    by: "Unknown",
-  },
-];
-
-FamousSaying.propTypes = {
-  saying: PropTypes.string.isRequired,
-  by: PropTypes.string.isRequired,
-};
-
-function App() {
-  return (
-    <div>
-      <h1>Hello</h1>
-      {famousSayingArr.map((e, i) => (
-        <FamousSaying key={i} saying={e.saying} by={e.by} />
-      ))}
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    console.log("App Created");
+  }
+  state = {
+    count: 0,
+  };
+  add = () => {
+    this.setState((curr) => ({ count: curr.count + 1 }));
+  };
+  minus = () => {
+    this.setState((curr) => ({ count: curr.count - 1 }));
+  };
+  componentDidMount() {
+    console.log("Component Rendered");
+  }
+  componentDidUpdate() {
+    console.log("Component Updated");
+  }
+  componentWillUnmount() {
+    // Cannot see in log...
+  }
+  render() {
+    console.log("Rendering Component...");
+    return (
+      <div>
+        <h1>Class Component #{this.state.count}</h1>
+        <button onClick={this.add}>ADD</button>
+        &nbsp;&nbsp;&nbsp;
+        <button onClick={this.minus}>MINUS</button>
+      </div>
+    );
+  }
 }
 
 export default App;
