@@ -1,0 +1,31 @@
+.navbar {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.25em;
+  transition: box-shadow 0.3s;
+}
+.navbar:hover {
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.navbar .link:link {
+  color: blue;
+  display: inline-block;
+  font-weight: bold;
+  padding: 1em;
+  text-decoration: none;
+}
+.navbar .link:hover {
+  background-color: #e6e6e6;
+}
+.navbar .link:visited {
+  color: blue;
+  text-decoration: none;
+}
