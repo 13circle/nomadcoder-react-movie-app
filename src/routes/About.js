@@ -3,7 +3,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="about_container">
+    <div className="gravity_center">
       <div className="about_main">
         <h1>About</h1>
         <p>

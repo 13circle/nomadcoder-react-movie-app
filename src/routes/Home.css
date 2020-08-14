@@ -21,6 +21,7 @@ body,
   justify-content: center;
 }
 
+.gravity_center,
 .loader {
   width: 100%;
   height: 100%;
@@ -28,6 +29,14 @@ body,
   justify-content: center;
   align-items: center;
   font-weight: 300;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.gravity_center {
+  font-weight: normal;
 }
 
 .movies {

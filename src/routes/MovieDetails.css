@@ -1,0 +1,29 @@
+.movie_details_main {
+  background-color: white;
+  padding: 3em;
+  max-width: 60em;
+  border-radius: 0.5em;
+  transition: box-shadow 0.3s;
+}
+
+.movie_details_main img {
+  transition: box-shadow 0.3s;
+}
+
+.movie_details_main img:hover,
+.movie_details_main:hover {
+  cursor: default;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.movie_details_main .head_label {
+  display: inline-block;
+  text-align: center;
+  width: 6.5em;
+  margin-right: 0.5em;
+  padding: 0.2em 0.5em;
+  background-color: #929292;
+  color: white;
+  border-radius: 1em;
+}
