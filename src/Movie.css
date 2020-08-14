@@ -1,7 +1,6 @@
 .movies .movie {
   background-color: white;
   width: 45%;
-  height: 30vh;
   margin-bottom: 70px;
   display: flex;
   align-items: flex-start;
@@ -17,7 +16,7 @@
 .movie_poster {
   position: relative;
   top: -50px;
-  max-width: 130px;
+  max-width: 150px;
   width: 100%;
   margin-right: 30px;
   box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
@@ -47,8 +46,4 @@
 .movie_genre {
   margin-right: 10px;
   font-size: 14px;
-}
-
-.movie_summary {
-  margin-right: 20px;
 }
