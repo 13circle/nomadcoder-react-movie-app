@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function FamousSaying({ saying, by }) {
   return (
@@ -18,6 +19,11 @@ const famousSayingArr = [
     by: "Unknown",
   },
 ];
+
+FamousSaying.propTypes = {
+  saying: PropTypes.string.isRequired,
+  by: PropTypes.string.isRequired,
+};
 
 function App() {
   return (
